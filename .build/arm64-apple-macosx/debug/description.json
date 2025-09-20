@@ -1,0 +1,850 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.xctest/Contents/MacOS/ChordinatePackageTests",
+      "packagePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate",
+      "productName" : "ChordinatePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Chordinate-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/sources",
+      "importPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/ChordinateApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordAction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordBinding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/KeyStroke.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ModifierFlags.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Support/ChordStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ChordEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Chordinate",
+      "moduleOutputPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/Chordinate.swiftmodule",
+      "objects" : [
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.swift.o",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Chordinate_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "chordinate"
+      ],
+      "outputFileMapPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/Chordinate.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/ChordinateApp.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordAction.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordBinding.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/KeyStroke.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ModifierFlags.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordEngine.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordRecorder.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Support/ChordStore.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ChordEditorView.swift",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ContentView.swift"
+      ],
+      "tempsPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ChordinatePackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/sources",
+      "importPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/ChordinateTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ChordinatePackageTests",
+      "moduleOutputPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/ChordinatePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/ChordinatePackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "chordinate"
+      ],
+      "outputFileMapPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/ChordinatePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ChordinateTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/sources",
+      "importPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Tests/ChordinateTests/ChordModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ChordinateTests",
+      "moduleOutputPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/ChordinateTests.swiftmodule",
+      "objects" : [
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "chordinate"
+      ],
+      "outputFileMapPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules/ChordinateTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Tests/ChordinateTests/ChordModelTests.swift"
+      ],
+      "tempsPath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Chordinate" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Chordinate",
+      "-package-name",
+      "chordinate",
+      "-incremental",
+      "-c",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/ChordinateApp.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordAction.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordBinding.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/KeyStroke.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ModifierFlags.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordEngine.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordRecorder.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Support/ChordStore.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ChordEditorView.swift",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ContentView.swift",
+      "-I",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Chordinate_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "chordinate",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ChordinatePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ChordinatePackageTests",
+      "-package-name",
+      "chordinate",
+      "-incremental",
+      "-c",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/ChordinatePackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "chordinate",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ChordinateTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ChordinateTests",
+      "-package-name",
+      "chordinate",
+      "-incremental",
+      "-c",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Tests/ChordinateTests/ChordModelTests.swift",
+      "-I",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "chordinate",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Chordinate" : [
+
+    ],
+    "ChordinatePackageTests" : [
+      "ChordinateTests",
+      "Chordinate"
+    ],
+    "ChordinateTests" : [
+      "Chordinate"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate-entitlement.plist"
+    },
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/ChordinateApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordAction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordBinding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/KeyStroke.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ModifierFlags.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Support/ChordStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ChordEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ContentView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/sources"
+    },
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.product/Objects.LinkFileList"
+    },
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/sources"
+    },
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Tests/ChordinateTests/ChordModelTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/sources"
+    },
+    "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

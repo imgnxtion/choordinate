@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/master.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/ChordinateApp.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordinateApp.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordAction.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordAction.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ChordBinding.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordBinding.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/KeyStroke.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/KeyStroke.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Models/ModifierFlags.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ModifierFlags.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordEngine.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEngine.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Services/ChordRecorder.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordRecorder.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Support/ChordStore.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordStore.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ChordEditorView.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ChordEditorView.swiftdeps"
+  },
+  "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/Sources/Chordinate/Views/ContentView.swift": {
+    "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.d",
+    "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.swift.o",
+    "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/Chordinate.build/ContentView.swiftdeps"
+  }
+}
