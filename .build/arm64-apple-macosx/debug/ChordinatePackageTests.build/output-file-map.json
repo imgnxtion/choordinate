@@ -6,6 +6,7 @@
     "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.d",
     "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.swift.o",
     "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner~partial.swiftmodule",
-    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.swiftdeps"
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/runner.dia"
   }
 }

@@ -6,6 +6,7 @@
     "dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.d",
     "object": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.swift.o",
     "swiftmodule": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests~partial.swiftmodule",
-    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.swiftdeps"
+    "swift-dependencies": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.swiftdeps",
+    "diagnostics": "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinateTests.build/ChordModelTests.dia"
   }
 }

@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Chordinate",
+    defaultLocalization: "en",
     platforms: [
         .macOS(.v13)
     ],
@@ -12,7 +13,11 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "Chordinate",
-            path: "Sources"
+            path: "Sources/Chordinate",
+            resources: [
+                .process("Resources"),
+                .process("Shaders")
+            ]
         ),
         .testTarget(
             name: "ChordinateTests",

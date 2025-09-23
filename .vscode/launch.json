@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:chordinate}",
+            "name": "Debug Chordinate",
+            "program": "${workspaceFolder:chordinate}/.build/debug/Chordinate",
+            "preLaunchTask": "swift: Build Debug Chordinate"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:chordinate}",
+            "name": "Release Chordinate",
+            "program": "${workspaceFolder:chordinate}/.build/release/Chordinate",
+            "preLaunchTask": "swift: Build Release Chordinate"
+        }
+    ]
+}

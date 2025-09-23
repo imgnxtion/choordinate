@@ -22,7 +22,7 @@ final class ChordRecorder: ObservableObject {
                 }
                 self.recordedSteps.append(stroke)
             }
-            return nil
+            return event
         }
     }
 
