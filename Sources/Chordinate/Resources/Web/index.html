@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chordinate</title>
+    <style>
+      body { font-family: -apple-system, system-ui, sans-serif; margin: 24px; }
+      .row { display:flex; gap:12px; align-items:center; }
+      code { background:#f4f4f4; padding:2px 6px; border-radius:4px; }
+    </style>
+  </head>
+  <body>
+    <h1>Chordinate (Web UI)</h1>
+    <div class="row">
+      <label><input type="checkbox" id="enabled" /> Detection Enabled</label>
+      <button id="refresh">Refresh</button>
+    </div>
+    <p>Bindings:</p>
+    <ul id="bindings"></ul>
+    <p>Last Triggered: <span id="last"></span></p>
+
+    <script>
+      // Minimal bridge helper
+      function send(type, payload){
+        try { window.webkit.messageHandlers.bridge.postMessage({ type, payload }); } catch {}
+      }
+      function onEvent(handler){
+        if (!window.chordinate || !window.chordinate.on) return () => {};
+        return window.chordinate.on(handler);
+      }
+
+      const enabledEl = document.getElementById('enabled');
+      const listEl = document.getElementById('bindings');
+      const lastEl = document.getElementById('last');
+      document.getElementById('refresh').onclick = () => send('ready');
+      enabledEl.onchange = () => send('setDetectionEnabled', enabledEl.checked);
+
+      function modSymbols(raw){
+        let out = '';
+        if (raw & 4) out += '⌃'; // control
+        if (raw & 2) out += '⌥'; // option
+        if (raw & 8) out += '⇧'; // shift
+        if (raw & 1) out += '⌘'; // command
+        return out;
+      }
+
+      function renderBindings(items){
+        listEl.innerHTML = '';
+        items.forEach(b => {
+          const li = document.createElement('li');
+          const seq = (b.steps || []).map(s => (modSymbols((s.modifiers||{}).rawValue|0) + (s.key || ''))).join(' › ');
+          li.textContent = (b.name || 'Untitled') + ' — ' + seq;
+          listEl.appendChild(li);
+        });
+      }
+
+      onEvent(({type, payload}) => {
+        if (type === 'bindingsChanged') {
+          renderBindings(payload.bindings || []);
+        } else if (type === 'detectionChanged') {
+          enabledEl.checked = !!payload.enabled;
+        } else if (type === 'lastTriggered') {
+          const b = payload.binding || null;
+          lastEl.textContent = b ? (b.name || b.displaySequence || b.id) : '';
+        } else if (type === 'nativeReady') {
+          // Ask native to send initial state
+          send('ready');
+        }
+      });
+
+      // Kick once for initial dev without nativeReady
+      send('ready');
+    </script>
+  </body>
+  </html>

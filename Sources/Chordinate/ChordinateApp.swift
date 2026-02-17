@@ -1,4 +1,5 @@
 import SwiftUI
+import AppKit
 
 @main
 struct ChordinateApp: App {
@@ -10,14 +11,16 @@ struct ChordinateApp: App {
         let store = ChordStore()
         _store = StateObject(wrappedValue: store)
         _engine = StateObject(wrappedValue: ChordEngine(store: store))
+        // Ensure app activates to front so the web UI gets focus.
+        DispatchQueue.main.async {
+            NSApp.setActivationPolicy(.regular)
+            NSApplication.shared.activate(ignoringOtherApps: true)
+        }
     }
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(store)
-                .environmentObject(engine)
-                .environmentObject(recorder)
+            WebAppView(store: store, engine: engine, recorder: recorder)
         }
         .commands {
             CommandMenu("Chords") {

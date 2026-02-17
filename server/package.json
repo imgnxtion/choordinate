@@ -1,0 +1,9 @@
+{
+  "name": "chordinate-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tiny API to read/write Chordinate bindings.",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

@@ -1,4 +1,0 @@
-module ChordinatePackageTests {
-    header "/Users/donaldmoore/src/dinglehopper/stdln/chordinate/.build/arm64-apple-macosx/debug/ChordinatePackageTests.build/ChordinatePackageTests-Swift.h"
-    requires objc
-}

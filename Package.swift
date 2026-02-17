@@ -15,8 +15,7 @@ let package = Package(
             name: "Chordinate",
             path: "Sources/Chordinate",
             resources: [
-                .process("Resources"),
-                .process("Shaders")
+                .process("Resources")
             ]
         ),
         .testTarget(

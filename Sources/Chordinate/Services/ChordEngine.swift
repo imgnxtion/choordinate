@@ -4,7 +4,7 @@ import Combine
 
 final class ChordEngine: ObservableObject {
     @Published private(set) var lastTriggered: ChordBinding?
-    @Published var detectionEnabled: Bool = true
+    @Published var detectionEnabled: Bool = false
 
     private let store: ChordStore
     private var cancellables = Set<AnyCancellable>()

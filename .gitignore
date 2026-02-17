@@ -27,8 +27,11 @@ fastlane/test_output
 *.lock
 *.tmp
 *.DS_Store
+node_modules/
+server/node_modules/
 
 # Xcode projects/workspaces
 *.xccheckout
 *.moved-aside
 *.xcscmblueprint
+.breadcrumb

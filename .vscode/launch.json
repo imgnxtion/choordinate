@@ -1,21 +1,34 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:chordinate}",
+            "cwd": "${workspaceFolder}",
             "name": "Debug Chordinate",
-            "program": "${workspaceFolder:chordinate}/.build/debug/Chordinate",
+            "program": "${workspaceFolder}/.build/debug/Chordinate",
             "preLaunchTask": "swift: Build Debug Chordinate"
         },
         {
             "type": "swift",
             "request": "launch",
             "args": [],
-            "cwd": "${workspaceFolder:chordinate}",
+            "cwd": "${workspaceFolder}",
+            "name": "Debug Chordinate (Web Dev Server)",
+            "program": "${workspaceFolder}/.build/debug/Chordinate",
+            "preLaunchTask": "swift: Build Debug Chordinate",
+            "env": {
+                "WEB_DEV_SERVER_URL": "http://localhost:5173"
+            }
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
             "name": "Release Chordinate",
-            "program": "${workspaceFolder:chordinate}/.build/release/Chordinate",
+            "program": "${workspaceFolder}/.build/release/Chordinate",
             "preLaunchTask": "swift: Build Release Chordinate"
         }
     ]
